@@ -64,7 +64,7 @@ public class Learn {
 
         // and now dump the clustering results.  This prints one line per cluster centroids, each with WINDOW values
         t0 = System.nanoTime() / 1e9;
-        try (Formatter out = new Formatter("k.tsv")) {
+        try (Formatter out = new Formatter("dict.tsv")) {
             for (Vector v : clustering) {
                 String separator = "";
                 for (Vector.Element element : v.all()) {
