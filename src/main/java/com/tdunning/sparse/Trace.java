@@ -10,7 +10,7 @@ import java.io.*;
 
 /**
  * Reads an EKG trace from the format provided by physio.net
- * <p/>
+ * <p></p>
  * This format contains a matrix of 16bit numbers in row major order.
  */
 public class Trace {
